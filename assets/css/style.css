@@ -1,0 +1,85 @@
+
+
+  
+  header, footer {
+    display: flex;
+    flex:100%;
+    justify-content: space-between;
+    padding: 10px;
+    background: purple;
+    color: white;
+    align-items: flex-end;
+    margin-top:2vh;
+    
+  }
+  nav, .links {
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+  }
+  
+  h1 {
+  font-size: 220%;
+  }
+  h2 {
+      font-size: 150%;
+        padding-left: 10px;
+        
+  }
+  a {
+        color: white;
+  }
+  a:hover {
+    color: violet;
+  }
+  main {
+    display:flex;
+      flex-wrap: wrap;
+  }
+  .about-section, .work-section {
+      display:flex;
+      flex-direction:row;
+      background: purple;
+      color: white;
+      margin-top:2vh;
+      padding:2vh;
+  }
+   
+    
+  p {
+  margin-top: 2%;
+  margin-left: 2%;
+  }
+.section-heading {
+  font-size: 320%;
+  padding-right: 6vh;
+  text-align: right;
+}
+.text-block {
+  position:relative;
+  bottom: 20px;
+  left: 20px;
+  
+  width: 150px;
+  background-color: white;
+  color: purple;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+img { 
+  border: 3px solid purple; 
+} 
+img:hover { 
+  border: 6px solid white; 
+} 
