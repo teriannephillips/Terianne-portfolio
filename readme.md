@@ -10,4 +10,4 @@ My professional portfolio showcases my work for potential employers
 
 ## Link
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Visit the site! [Horiseon](https://teriannephillips.github.io/Terianne-portfolio/)
+Visit the site! [Terianne's Portfolio](https://teriannephillips.github.io/Terianne-portfolio/)
