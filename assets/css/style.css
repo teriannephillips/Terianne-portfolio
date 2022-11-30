@@ -3,7 +3,6 @@
   
   header, footer {
     display: flex;
-    flex:100%;
     justify-content: space-between;
     padding: 10px;
     background: purple;
@@ -55,6 +54,7 @@
 .section-heading {
   font-size: 320%;
   padding-right: 6vh;
+
   text-align: right;
 }
 .text-block {
@@ -83,3 +83,25 @@ img {
 img:hover { 
   border: 6px solid white; 
 } 
+@media screen and (max-width: 992px) {
+ 
+  header, footer {
+    display: inline-flexbox;
+  }
+  .section-heading {
+   font-size:200%;
+  }
+  .about-section, .work-section {
+    display:flex;
+    flex-direction:column;
+  }
+  p {
+    font-size: 80%;
+  }
+  h1 {
+    font-size: 400%;
+  }
+  h2 {
+    font-size: 250%;
+  }
+}
