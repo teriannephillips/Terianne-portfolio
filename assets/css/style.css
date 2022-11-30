@@ -4,6 +4,7 @@
   header, footer {
     display: flex;
     justify-content: space-between;
+    width: 100%;
     padding: 10px;
     background: purple;
     color: white;
@@ -85,8 +86,8 @@ img:hover {
 } 
 @media screen and (max-width: 992px) {
  
-  header, footer {
-    display: inline-flexbox;
+  footer {
+    display:inline-block;
   }
   .section-heading {
    font-size:200%;
@@ -96,12 +97,23 @@ img:hover {
     flex-direction:column;
   }
   p {
-    font-size: 80%;
+    font-size: 120%;
   }
   h1 {
     font-size: 400%;
   }
   h2 {
     font-size: 250%;
+  }
+  h4 {
+     font-size:200%;
+  }
+  .row {
+    display:block;
+    padding: 5px;
+  }
+  .text-block {
+    width: 300px;
+    height: 80px;
   }
 }
