@@ -3,12 +3,14 @@ header,
 footer {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 10px;
-  background: purple;
+  padding: 2vh;
+  background: purple; 
   color: white;
   align-items: flex-end;
   margin-top: 2vh;
+}
+footer {
+  width:100%;
 }
 /* Formatting for the navigation bar and links class  */
 nav,
@@ -48,11 +50,13 @@ main {
   color: white;
   margin-top: 2vh;
   padding: 2vh;
+  width:100%;
 }
 /* Paragraph formatting  */
 p {
   margin-top: 2%;
   margin-left: 2%;
+  font-size:110%;
 }
 /* formatting the headings about, work and contact me  */
 .section-heading {
@@ -63,7 +67,7 @@ p {
 /* Creates the formatting for the project titles  */
 .text-block {
   position: relative;
-  bottom: 20px;
+  bottom: 60px;
   left: 20px;
   width: 150px;
   background-color: white;
